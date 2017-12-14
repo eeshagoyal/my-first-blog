@@ -2,7 +2,7 @@
 
 <html>
     <head>
-        <title>Django Girls blog</title>
+        <title>Delhi Darshan</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
          <!--This line will import a font called Lobster from Google Fonts-->
@@ -12,17 +12,42 @@
     </head>
 
     <body>
-        <div class="page-header">
-            <h1><a href="/">Django Girls Blog</a></h1>
-        </div>
-        
-        <div class="content container">
-            <div class="row">
-                <div class="col-md-8">
-                    {% block content %}
-                    {% endblock %}
+       
+            <div class="page-header">
+                <h1><a href="/">Delhi Darshan</a></h1>
+            </div>
+         <div class = 'container'>
+            <div class="content container">
+                <div class="row">
+                    <div class="col-md-8">
+                        {% block content %}
+                        {% endblock %}
+                    </div>
                 </div>
             </div>
+
+            <aside>
+                <img src="/static/img/profilepic.jpg" alt="My profile picture">
+
+                <div class="sidebar-text">
+                    <h2>About the Author</h2>
+                    <h4>Eesha Goyal</h4>
+                    <p>I drink in the sights and sounds of every new place and these are my stories! </p>
+
+                    <section>
+                        <h3 class="visuallyhidden">Social Links</h3>
+                        <a class="social-link" href="https://twitter.com/eeshagoyal96">
+                            <img src="static/img/social-twitter.png" alt="Twitter">
+                        </a>
+                        <a class="social-link" href="https://www.instagram.com/eeshagoyal/">
+                            <img src="static/img/social-instagram.png" alt="Instagram">
+                        </a>
+                        <a class="social-link" href="https://plus.google.com/116670206314110984553">
+                            <img src="static/img/social-google.png" alt="Google Plus">
+                        </a>
+                    </section>
+                </div>
+            </aside>
         </div>
     </body>
 </html>
