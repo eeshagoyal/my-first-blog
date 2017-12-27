@@ -25,8 +25,9 @@ SECRET_KEY = 'qmxbjel6f7%(_=)i#baz854^ytd^2ak^f_w6qe1oz-i38e0o7%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+ALLOWED_HOSTS = ['eeshagoyal.pythonanywhere.com']
 #ALLOWED_HOSTS = ['127.0.0.1'] #local host
-ALLOWED_HOSTS = ['192.168.0.15'] #home wifi local ip 
+#ALLOWED_HOSTS = ['192.168.0.15'] #home wifi local ip 
 #ALLOWED_HOSTS = ['192.168.43.108'] #phone ipv4
 #ALLOWED_HOSTS = ['127.0.0.1', '<your_username>.pythonanywhere.com']
 
